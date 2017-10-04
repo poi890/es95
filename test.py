@@ -18,7 +18,7 @@ for submission in submissions:
 print('Total Comments: ', totalComments)
 print('Total Score: ', totalScore)
 
-#calculate daily score (sum of daily_sentiment*daily_total_comments*daily_score for each article within the past 24 hours)
+#calculate daily score (sum of daily_sentiment + daily_total_comments + daily_score for each article within the past 24 hours)
 
 
 #other things to do: program should skip posts that have below x amount of comments (since they're most likely irrelevant)
